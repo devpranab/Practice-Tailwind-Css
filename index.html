@@ -11,5 +11,311 @@
     <h1 class="text-3xl underline text-white bg-black p-4">
         Hello tailwind!
       </h1>
+
+      <!-- Utility-First Fundamentals -->
+          <!-- Typography -->
+          <!-- Font Family -->
+          <p class="font-sans">This is font-sans</p>
+          <p class="font-serif">This is font-serif</p>
+          <p class="font-mono">This is font-mono</p>
+      
+          <!-- Font Size -->
+          <p class="text-xm">Font size</p>
+          <p class="text-sm">Font size</p>
+          <p class="text-base">Font size</p>
+          <p class="text-lg">Font size</p>
+          <p class="text-xl">Font size</p>
+          <p class="text-2xl">Font size</p>
+          <p class="text-5xl">Font size</p>
+          <p class="text-9xl">Font size</p>
+      
+          <!-- Font Size -->
+          <p class="italic">Italic Font Style</p>
+          <p class="non-italic">Not Italic Font Style</p>
+      
+          <!-- Font Weight -->
+          <p class="font-thin">This is thin font Weight</p>
+          <p class="font-extralight">This is extra light font Weight</p>
+          <p class="font-light">This is light font Weight</p>
+          <p class="font-normal">This is normal font Weight</p>
+          <p class="font-medium">This is medium font Weight</p>
+          <p class="font-semibold">This is semibold font Weight</p>
+          <p class="font-bold">This is bold font Weight</p>
+          <p class="font-extrabold">This is extra bold font Weight</p>
+          <p class="font-black">This is black font Weight</p>
+      
+          <!-- List Style Type -->
+          <br class="list-none p-5">
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+          <ul class="list-disc p-5">
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+          </ul>
+            <ul class="list-decimal p-5">
+              <li>list 1</li>
+              <li>list 2</li>
+              <li>list 3</li>
+          </ul>
+          <!-- Text Alignment -->
+          <p class="text-left">Left</p>
+          <p class="text-center">Center</p>
+          <p class="text-right">Right</p>
+          <p class="text-justify">Justify</p>
+      
+          <!-- Text Color -->
+          <p class="text-red-500">Text Color</p>
+          <p class="text-transparent">Text Color</p>
+          <p class="text-green-100">Text Color</p>
+          <p class="text-green-500">Text Color</p>
+      
+          <!-- Text Opacity -->
+          <p class="text-red-700 text-opacity-50">Text Opacity 50</p>
+          <p class="text-red-700 text-opacity-20">Text Opacity 20</p>
+          <p class="text-red-700 text-opacity-0">Text Opacity 0</p>
+          <p class="text-red-700 text-opacity-100">Text Opacity 100</p>
+      
+          <!-- Text Decoration -->
+          <p class="underline">Underline</p>
+          <p class="line-through">Line through</p>
+          <a href="#" class="no-underline">Click Here</a>
+      
+          <!-- Background Image -->
+          <div style="background-image: url(/img/bg.jpg);"
+          class="bg-cover bg-center bg-fixed w-60 h-60 overflow-hidden text-white">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum pariatur saepe rerum facilis ut ipsa at quia aut cumque, a commodi, modi ducimus maiores voluptates ratione eligendi tenetur provident et.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab odit unde dolorum architecto magni ad veniam tenetur placeat distinctio, reprehenderit officiis doloribus aperiam quam dicta! Cupiditate accusantium pariatur enim? 
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis mollitia eos vitae!
+          </div><br/>
+      
+          <!-- Background Color -->
+          <p class="bg-red-400 p-4">Background red</p>
+          <p class="bg-blue-400 p-4">Background blue</p>
+          <p class="bg-black text-white p-4">Background blue</p>
+          <p class="bg-yellow-300 p-4">Background blue</p>
+      
+          <!-- Background Opaity -->
+          <button class="bg-green-600 bg-opacity-50">Green button</button>
+          <button class="bg-green-600 bg-opacity-20">Green button</button><br/>
+      
+          <!-- Sizing -->
+          <!-- Width & Height -->
+          <div class="border w-28 h-28">Width & Height</div>
+          <!-- 
+            h-full = height 100%
+            h-screen = height 100vh
+           -->
+      
+          <!-- Spacing -->
+          <!-- Padding -->
+          <button class="bg-blue-700 p-5">Padding</button>
+          <button class="bg-blue-700 p-10">Padding</button>
+          <button class="bg-blue-700 pb-10">Padding</button>
+          <button class="bg-blue-700 pt-10">Padding</button>
+          <button class="bg-blue-700 pl-10">Padding</button>
+          <button class="bg-blue-700 pr-10">Padding</button>
+          <button class="bg-blue-700 px-10">Padding</button>
+          <button class="bg-blue-700 py-10">Padding</button><br/>
+      
+          <!-- Margin -->
+          <button class="bg-blue-700 m-5">Margin</button>
+          <button class="bg-blue-700 m-10">Margin</button><br/>
+          <button class="bg-blue-700 ml-2">Margin</button><br/>
+          <button class="bg-blue-700 ml-5">Margin</button><br/>
+          <button class="bg-blue-700 ml-7">Margin</button><br/>
+          <button class="bg-blue-700 ml-10">Margin</button><br/>
+          <button class="bg-blue-700 mb-10">Margin</button><br/>
+          <button class="bg-blue-700 mt-10">Margin</button><br/>
+          <button class="bg-blue-700 mr-10">Margin</button><br/>
+          <button class="bg-blue-700 mx-10">Margin</button><br/>
+          <button class="bg-blue-700 my-10">Margin</button><br/>
+          <!-- 
+            mx-auto - center
+           -->
+      
+          <!-- Space Between -->
+          <!-- Vertical Space -->
+          <div class="space-y-5">
+           <div class="bg-red-900">1</div>
+           <div class="bg-green-600">3</div>
+           <div class="bg-pink-600">3</div>
+          </div>
+          <!-- Horizontal Space -->
+          <div class="space-x-10">
+            <span class="bg-red-900">1</span>
+            <span class="bg-green-600">3</span>
+            <span class="bg-pink-600">3</span>
+           </div>
+      
+           <!-- Border -->
+           <!-- Border Width -->
+           <span class="border border-indigo-600">Border</span>
+           <span class="border-r-2 border-indigo-600">Border</span>
+      
+           <!-- Border Color -->
+           <span class="border-4 border-rose-800">Border</span>
+           <span class="border-4 border-black">Border</span>
+      
+            <!-- Border Radius -->
+            <button class="border-4 border-red-500 rounded-sm">Rounded</button>
+            <button class="border-4 border-red-500 rounded">Rounded</button>
+            <button class="border-4 border-red-500 rounded-lg">Rounded</button>
+            <button class="border-4 border-red-500 rounded-full">Rounded</button>
+            <button class="border-4 border-red-500 rounded-t">Rounded</button>
+      
+            <!-- Effects -->
+            <!-- Box shadow -->
+            <div class="border shadow-md w-28 h-28">Shadow</div>
+            <div class="border shadow-lg w-28 h-28">Shadow</div>
+            <div class="border shadow-xl w-28 h-28">Shadow</div>
+            <div class="border shadow-2xl w-28 h-28">Shadow</div><br/>
+      
+            
+            <!-- Gradient -->
+            <div class="bg-gradient-to-r from bg-yellow-600 via-red-500 to-green-500 w-60 h-60 overflow-hidden text-white">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum pariatur saepe rerum facilis ut ipsa at quia aut cumque, a commodi, modi ducimus maiores voluptates ratione eligendi tenetur provident et.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab odit unde dolorum architecto magni ad veniam tenetur placeat distinctio, reprehenderit officiis doloribus aperiam quam dicta! Cupiditate accusantium pariatur enim? 
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis mollitia eos vitae!
+            </div><br/>
+      
+            <!-- Transition -->
+            <button class="border border-red-500 px-4 rounded ml-60 hover:bg-red-500 transition ease-in-out duration-300 transform hover:scale-110">Transition</button>
+      
+            <!-- Transform -->
+            <div class="flex justify-around">
+              <div class="transform scale-75 w-40 p-8 border-2">Transform scale</div>
+            <div class="transform rotate-45 w-40 p-8 border-2">Transform rotate</div>
+            <div class="transform translate-y-6 w-40 p-8 border-2">Transform translate</div>
+            <div class="transform skew-y-12 w-40 p-8 border-2">Transform skew</div>
+            </div>
+      
+      
+            <!-- Shadow color -->
+            <div class="border shadow-2xl w-28 h-28 hadow-red-700">Shadow color</div>
+      
+            <!-- Opacity -->
+            <button class="bg-indigo-500 opacity-100">Opaity</button>
+            <button class="bg-indigo-500 opacity-75">Opacity</button>
+            <button class="bg-indigo-500 opacity-50">Opacity</button>
+            <button class="bg-indigo-500 opacity-25">Opacity</button>
+      
+            <!-- Hover & Focus -->
+            <button class="bg-green-500 p-4 hover:bg-red-300">Hover</button>
+            <button class="bg-green-500 p-4 hover:bg-red-300">Hover</button>
+      
+            Name: <input type="text" name="name" class="border-2 outline-none focus:border-red-700"/>
+      
+      
+            <!-- Square Bracket Notation(value overwrite by css) -->
+            <div class="bg-red-300 mx-10 my-[50px] p-[16px]">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore accusantium sapiente, excepturi ratione vero ut hic. Nam exercitationem nulla consequatur!
+            </div>    
+      
+            <!-- Flex -->
+            <div class="flex justify-around mt-10 gap-4">
+              <div class="w-50 h-50 border-2 p-10">item 1</div>
+              <div class="w-50 h-50 border-2 p-10">item 2</div>
+              <div class="w-50 h-50 border-2 p-10">item 3</div>
+            </div>
+      
+            <!-- Grid -->
+            <!-- 
+              grid
+              grid-cols-3
+              col-span-
+              gap-8
+             -->
+      
+      
+            <!-- Card design -->
+            <div class="bg-white border rounded ml-40 w-60 p-2 relative">
+              <img src="img/fried.jpg" alt="" class="w-full h-auto rounded">
+              <div class="">
+                <span class="font-bold">Fry & chicken</span>
+                <span class="block text-sm text-gray-500">by pranav</span>
+                <span>Price: 120/-</span>
+                <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, assumenda autem ut laboriosam fugiat reiciendis consequuntur nam impedit inventore ipsum distinctio. Ratione expedita impedit</p>
+              </div>
+              <div class="bg-red-400 text-white text-xs uppercase py-2 px-4 rounded-full
+              absolute top-0 mt-4 ml-2">
+                <span class="font-thin">20 minutes</span>
+              </div>
+              <a href="#" class="">More...</a>
+            </div>
+      
+            <!-- Interactivity -->
+            <!-- Curor -->
+          <div class="flex gap-5">
+            <div class="w-20 h-20 border-4 p-10 cursor-pointer">Cursor pointer</div>
+            <div class="w-20 h-20 border-4 p-10 cursor-wait">Cursor wait</div>
+            <div class="w-20 h-20 border-4 p-10 cursor-cell">Cursor cell</div>
+            <div class="w-20 h-20 border-4 p-10 cursor-move">Cursor move</div>
+          </div>
+      
+          <!-- Appearance -->
+          <select>
+            <option>Yes</option>
+            <option>No</option>
+            <option>Maybe</option>
+          </select>
+          
+          <select class="appearance-none">
+            <option>Yes</option>
+            <option>No</option>
+            <option>Maybe</option>
+          </select><br/>
+      
+          <!-- Resize -->
+          <textarea class="resize-x rounded-md p-6">Feedback</textarea>
+          <textarea class="resize-y rounded-md p-6">Feedback</textarea>
+      
+          <!-- Table -->
+          <table class="border-collapse border border-slate-400">
+            <thead>
+              <tr>
+                <th class="border border-slate-300 ...">State</th>
+                <th class="border border-slate-300 ...">City</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border border-slate-300 ...">Indiana</td>
+                <td class="border border-slate-300 ...">Indianapolis</td>
+              </tr>
+              <tr>
+                <td class="border border-slate-300 ...">Ohio</td>
+                <td class="border border-slate-300 ...">Columbus</td>
+              </tr>
+              <tr>
+                <td class="border border-slate-300 ...">Michigan</td>
+                <td class="border border-slate-300 ...">Detroit</td>
+              </tr>
+            </tbody>
+          </table>
+      
+          <!-- Float -->
+         <div class="border-2 p-5">
+          <img class="float-right w-20" src="/img/bg.jpg">
+          <p>Maybe we can live without libraries, people like you and me. ...</p>
+         </div>
+      
+         <!-- Ring -->
+         <img class="h-24 w-24 mx-auto rounded-full ring-4" src="/img/ring.jpg" alt=""/>
+
+         <!-- Notification -->
+        <div class="mt-4">
+            <span>Notification</span>
+            <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+                <div class="shrink-0">
+                  <img class="h-12 w-12" src="/img/mess.jpg" alt="Mess Logo">
+                </div>
+                <div>
+                  <div class="text-xl font-medium text-black">ChitChat</div>
+                  <p class="text-slate-500">You have a new message!</p>
+                </div>
+              </div>
+        </div>
 </body>
 </html>
