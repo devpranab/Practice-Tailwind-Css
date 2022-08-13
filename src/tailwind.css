@@ -37,3 +37,9 @@
         font-size: 20px;
     }
 }
+
+@responsive {
+    .bg-gradient-brand {
+        background-image: linear-gradient(blue, green);
+    }
+}

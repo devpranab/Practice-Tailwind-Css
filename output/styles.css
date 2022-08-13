@@ -1485,6 +1485,18 @@ h6 {
     }
 } */
 
+@variants hover {
+  .text-color {
+    font-size: 20px;
+  }
+}
+
+@responsive {
+  .bg-gradient-brand {
+    background-image: linear-gradient(blue, green);
+  }
+}
+
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -1539,6 +1551,10 @@ h6 {
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
+
+  .sm\:bg-gradient-brand {
+    background-image: linear-gradient(blue, green);
+  }
 }
 
 @media (min-width: 768px) {
@@ -1549,6 +1565,10 @@ h6 {
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .md\:bg-gradient-brand {
+    background-image: linear-gradient(blue, green);
   }
 }
 
