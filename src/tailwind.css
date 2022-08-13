@@ -18,9 +18,16 @@
 }
 }
 
-/* @base layer */
+/* @layer base */
 @layer base {
     h6 {
         @apply text-2xl;
     }
 }
+
+/* @layer utilities - our custom utilities */
+/* @layer utilities {
+    .text-body {
+        font-size: 15px;
+    }
+} */
