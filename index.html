@@ -490,5 +490,26 @@ darkMode: "class" - <html lang="en" class="dark">
       }
      -->
 
+      <!-- Variants Theme -->
+      <!-- 
+        in jit mode we can use all class in variants
+        extra add in variants,
+
+        variants: {
+          extend: {
+            fontsize: ["hover"],  //now available fontSize property in hover variant
+          }
+        }
+       -->
+       <br/>
+       <!-- works without extend -->
+       <button class="focus:text-2xl">Hover</button> 
+       <!-- 
+        for variants order maintaining autoatic
+        variantOrder: [] - write full array
+        -->
+
+        <!-- adding new plugin sample -->
+
 </body>
 </html>
