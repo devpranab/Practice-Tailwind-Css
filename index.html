@@ -7,7 +7,7 @@
     <title>Tailwind Css</title>
     <link rel="stylesheet" href="./output/styles.css">
 </head>
-<body>
+<link>
     <h1 class="text-3xl underline text-white bg-black p-4">
         Hello tailwind!
       </h1>
@@ -410,6 +410,24 @@ darkMode: "class" - <html lang="en" class="dark">
   },
    plugins: [] - for using third-party module
 -->
+
+<!-- Use Tailwind css as PostCSS Plugin -->
+<a href="https://tailwindcss.com/docs/installation/using-postcss">Use PostCSS following docs</a>
+
+<!-- 
+>npm i postcss postcss-cli autoprefixer - 
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+
+>npx tailwindcss init -p - 2 config file(postcss.config.js, tailwind.config.js)
+
+"build": "tailwindcss -i ./src/tailwind.css -o ./output/styles.css -w"
+"build-p": "postcss ./src/tailwind.css -o ./output/styles.css -w"
+
+>npm run build-p
+ -->
+ <p class="text-sky-400">The quick brown fox...</p>
 
 </body>
 </html>
