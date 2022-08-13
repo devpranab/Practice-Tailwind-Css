@@ -1437,6 +1437,8 @@ video {
 
 /* group utilities -apply Directive */
 
+/* this code will overwrite to utilities because these(group utilities) have below @tailwind utilities;*/
+
 .btn {
   border-radius: 0.25rem;
   border-width: 2px;
