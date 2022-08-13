@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* group utilities */
+.btn {
+    @apply text-white 
+    border-2 p-2 rounded hover:bg-red-900;
+}
+.r-btn {
+    @apply bg-red-500
+}
+.g-btn {
+    @apply bg-green-500
+}
