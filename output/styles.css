@@ -1435,12 +1435,15 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* group utilities */
+/* group utilities -apply Directive */
 
 .btn {
   border-radius: 0.25rem;
   border-width: 2px;
-  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1448,6 +1451,11 @@ video {
 .btn:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(127 29 29 / var(--tw-bg-opacity));
+}
+
+.btn {
+  padding: 0.5rem;
+  /* !important */
 }
 
 .r-btn {
