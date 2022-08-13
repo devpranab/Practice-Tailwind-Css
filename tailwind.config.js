@@ -8,5 +8,8 @@ module.exports = {
       padding: '2rem',
     }
   },
+  variants: {
+    extend: {}
+  },
   plugins: [],
 }
