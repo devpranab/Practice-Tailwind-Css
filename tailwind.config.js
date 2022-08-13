@@ -1,9 +1,11 @@
 /** @type {import('tailwindcss').Config} */
-const colors = require("tailwindcss/colors");
 module.exports = {
   content: ["*"],
   darkMode: "class", //'class' or 'media'
   theme: {
+    colors: {
+      "yellow": "#F00"
+    },
     extend: {},
     container: {
       padding: '2rem',

@@ -440,5 +440,37 @@ darkMode: "class" - <html lang="en" class="dark">
   for purge[] we can use custom css property - class="bg-[#FFFFFF]"
  -->
 
+ <!-- Theme Configuration -adv -->
+ <!-- Customization -->
+ <!-- 
+  const colors = require("tailwindcss/colors");
+     theme: {
+    colors: { - access default class
+      gray: colors.coolGray,
+    },
+
+  //or
+    theme: {
+    colors: { - overwrite default class
+      "yellow": "#F00"
+    }
+  -->
+  <a href="#" class="text-yellow">Color overwrite</a>
+  <!-- 
+    theme: {
+      screens: {
+        sm: "540px"
+        lg: "1000px"
+      }
+    }
+   -->
+   <!-- 
+    const defaultTheme = require("tailwindcss/defaultTheme");
+    fontFamily: {
+      sans: ["Roboto", ...defaultTheme.fontFamily.sans]
+    }
+    note: include google font cdn in html
+    -->
+
 </body>
 </html>

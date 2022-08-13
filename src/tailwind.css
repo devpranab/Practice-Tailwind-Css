@@ -4,19 +4,20 @@
 
 /* group utilities -apply Directive */
 /* this code will overwrite to utilities because these(group utilities) have below @tailwind utilities; comes @layer for this problem*/
-@layer components {
-.btn {
-    @apply px-4 py-1 text-white 
-    border-2 rounded hover:bg-red-900;
-    @apply p-2; /* !important */
-}
-.r-btn {
-    @apply bg-red-500
-}
-.g-btn {
-    @apply bg-green-500
-}
-}
+/* @layer components {
+    .btn {
+        @apply px-4 py-1 text-white 
+        border-2 rounded hover:bg-red-900;
+        @apply p-2;  !important 
+    }
+    .r-btn {
+        @apply bg-red-500
+    }
+    .g-btn {
+        @apply bg-green-500
+    }
+    } */
+
 
 /* @layer base */
 @layer base {
