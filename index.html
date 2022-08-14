@@ -526,5 +526,38 @@ darkMode: "class" - <html lang="en" class="dark">
           Play CDN with Customization
         ) -->
 
+        <!-- tailwind.config.js -->
+        <!-- 
+          *no darkMode, by default enable, for off you can use manually,
+          *no variants extend- now available it,
+          *content:["./dist/**/*.html"] came instead of purge:[]
+         -->
+
+        <!-- JIT all the time  -->
+        <!-- 
+          lightening fast build times - stackable variants - abitary value support
+          no more file size ballooning problem
+
+          Before JIT
+          source code - [@base,@components,@utilities] - dev build
+            |
+          purge: -- production build
+                    runtime build -After JIT
+          
+         -->
+         <!-- stackable variants -->
+      <!-- pseudo selector variants 
+      abitary value support - text-[#e5e5e5]
+      stackable variants - dark:md:hover:bg-green-300 -->
+         <div class="first-letter:text-4xl selection:bg-yellow
+         dark:md:hover:bg-green-300">Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Minima incidunt cupiditate laboriosam ut iste sit. Quod
+          sequi voluptates tempore quibusdam?</div>
+
+          <div class="mt-10">
+            <label for="email" class="after:content-['**'] 
+            after:ml-1 text-[#e5e5e5]">Email</label>
+          </div>
+
 </body>
 </html>
