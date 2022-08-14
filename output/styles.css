@@ -684,10 +684,6 @@ h6 {
   margin-top: 0.5rem;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
 .block {
   display: block;
 }
@@ -1187,15 +1183,6 @@ h6 {
   color: rgb(255 0 0 / var(--tw-text-opacity));
 }
 
-.text-\[\#e5e\] {
-  --tw-text-opacity: 1;
-  color: rgb(238 85 238 / var(--tw-text-opacity));
-}
-
-.text-\[\#e5e5\] {
-  color: #e5e5;
-}
-
 .text-\[\#e5e5e5\] {
   --tw-text-opacity: 1;
   color: rgb(229 229 229 / var(--tw-text-opacity));
@@ -1381,21 +1368,6 @@ h6 {
   margin-left: 0.25rem;
 }
 
-.after\:content-\[\]::after {
-  --tw-content: ;
-  content: var(--tw-content);
-}
-
-.after\:content-\[\'\'\]::after {
-  --tw-content: '';
-  content: var(--tw-content);
-}
-
-.after\:content-\[\'\*\'\]::after {
-  --tw-content: '*';
-  content: var(--tw-content);
-}
-
 .after\:content-\[\'\*\*\'\]::after {
   --tw-content: '**';
   content: var(--tw-content);
@@ -1405,11 +1377,6 @@ h6 {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:text-lg:hover {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .hover\:text-color:hover {
