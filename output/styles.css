@@ -1604,6 +1604,24 @@ h6 {
           text-decoration-line: none;
 }
 
+.decoration-violet-500 {
+  -webkit-text-decoration-color: #8b5cf6;
+          text-decoration-color: #8b5cf6;
+}
+
+.decoration-pink-500 {
+  -webkit-text-decoration-color: #ec4899;
+          text-decoration-color: #ec4899;
+}
+
+.decoration-2 {
+  text-decoration-thickness: 2px;
+}
+
+.decoration-4 {
+  text-decoration-thickness: 4px;
+}
+
 .opacity-100 {
   opacity: 1;
 }
