@@ -965,6 +965,10 @@ h6 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid-cols-\[100px_1fr_120px\] {
+  grid-template-columns: 100px 1fr 120px;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1221,6 +1225,16 @@ h6 {
   background-color: rgb(236 72 153 / var(--tw-bg-opacity));
 }
 
+.bg-slate-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+}
+
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -1231,6 +1245,10 @@ h6 {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\.\/images\/bg\.jpg\'\)\] {
+  background-image: url('./images/bg.jpg');
 }
 
 .via-red-500 {
@@ -1252,6 +1270,10 @@ h6 {
 
 .bg-center {
   background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .object-cover {
