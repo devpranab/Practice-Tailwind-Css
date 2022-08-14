@@ -571,6 +571,27 @@ shadow-lg shadow-red-300 -->
 
 
 <!-- Scroll snap API  -->
+<!-- 
+  snap-x
+  snap-center
+ -->
+<div class="flex gap-8 p-8 w-screen overflow-x-scroll snap-x">
+  <div
+      class="flex-shrink-0 w-80 h-40 bg-cyan-300 rounded-2xl snap-center"
+  ></div>
+  <div
+      class="flex-shrink-0 w-80 h-40 bg-violet-400 rounded-2xl snap-center"
+  ></div>
+  <div
+      class="flex-shrink-0 w-80 h-40 bg-fuchsia-400 rounded-2xl snap-center"
+  ></div>
+  <div
+      class="flex-shrink-0 w-80 h-40 bg-pink-500 rounded-2xl"
+  ></div>
+  <div
+  class="flex-shrink-0 w-80 h-40 bg-blue-500 rounded-2xl"
+></div>
+</div>
 
 
 <!-- Multi-column layout -->
@@ -609,7 +630,12 @@ shadow-lg shadow-red-300 -->
                 ></iframe>
             </div>
         </div>
-        <!-- 2nd ex- -->
+        <!-- 2nd ex- 
+        aspect-video
+        aspect-square
+        aspect-[3/2]
+        object-cover- maintain height
+      -->
         <div class="min-h-screen grid place-items-center px-8 mt-10">
           <div class="w-full max-w-2xl mx-auto">
               <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
