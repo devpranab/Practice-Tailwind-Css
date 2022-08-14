@@ -549,7 +549,7 @@ darkMode: "class" - <html lang="en" class="dark">
       <!-- pseudo selector variants 
       abitary value support - text-[#e5e5e5]
       stackable variants - dark:md:hover:bg-green-300 -->
-         <div class="first-letter:text-4xl selection:bg-yellow
+         <div class="first-letter:text-4xl hoz selection:bg-yellow
          dark:md:hover:bg-green-300">Lorem ipsum dolor sit amet consectetur,
           adipisicing elit. Minima incidunt cupiditate laboriosam ut iste sit. Quod
           sequi voluptates tempore quibusdam?</div>
@@ -558,38 +558,53 @@ darkMode: "class" - <html lang="en" class="dark">
             <label for="email" class="after:content-['**'] 
             after:ml-1 text-[#e5e5e5]">Email</label>
           </div>
-
-          <!-- Every color out of the box  -->
-          <pre>https://tailwindcss.com/docs/customizing-colors</pre>
-
-
-          <!-- Colored box shadows -->
-          <!-- now you can color shadow as your wish
-          shadow-lg shadow-red-300 -->
+<!-- Every color out of the box  -->
+<pre>https://tailwindcss.com/docs/customizing-colors</pre>
 
 
-          <!-- Scroll snap API  -->
+<!-- Colored box shadows -->
+<!-- now you can color shadow as your wish
+shadow-lg shadow-red-300 -->
+<button class="bg-cyan-500 shadow-sm shadow-red-500">Shadow Color</button>
+<button class="bg-cyan-500 shadow-md shadow-red-500">Shadow Color</button>
+<button class="bg-cyan-500 shadow-lg shadow-red-500">Shadow Color</button>
 
 
-          <!-- Multi-column layout -->
+<!-- Scroll snap API  -->
 
 
-          <!-- Native from control styling  -->
+<!-- Multi-column layout -->
 
 
-          <!-- Print modifier -->
+<!-- Native from control styling  -->
 
 
-          <!-- Modern aspect ratio API  -->
+<!-- Print modifier -->
+<div class="w-3/4 border-2 mt-8 p-2">
+  <h1 class="text-2xl">Print modifier</h1>
+<p class="text-slate-600 print:text-black print:text-justify">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde consectetur
+     corporis rerum harum numquam veniam officia, odit laboriosam, atque qui nisi,
+      illum maxime earum iure velit delectus doloribus ad eligendi. Praesentium 
+      officia sint debitis explicabo repudiandae quod fugiat corporis voluptatem!
+  </p>
+  <p class="text-right print:hidden">
+  <button onclick="window.print()"
+   class="bg-blue-500 text-white rounded p-1 px-2">Print</button>
+ </p>
+</div>
 
 
-          <!-- Fancy underline styles -->
+<!-- Modern aspect ratio API  -->
 
 
-          <!-- Arbitary properties -->
+<!-- Fancy underline styles -->
 
 
-          <!-- Play CDN with Customization -->
+<!-- Arbitary properties -->
+
+
+<!-- Play CDN with Customization -->
 
 </body>
 </html>
